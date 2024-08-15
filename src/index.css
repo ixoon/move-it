@@ -1,13 +1,28 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.feature-icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: .75rem;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar-brand .MuiSvgIcon-root {
+  font-size: 2rem;
+  color: #fff; /* Bela boja za ikone u navbaru */
+  margin-right: 10px;
+}
+
+.icon-link svg {
+  width: 1.2em;
+  height: 1.2em;
+  margin-left: 5px;
+}
+
+.outbox-icon{
+  color: black !important;
+  font-size: 2.5rem !important;
+  margin-left: 0 !important;
+  margin-bottom: 15px !important;
+}
+
+span{
+  font-size: 2rem;
 }
